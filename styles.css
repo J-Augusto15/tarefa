@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.titulo1 {
+    font-size: 7rem;
+    margin-top: 50px;
+}
+
+body h2{
+    font-size: 6rem;
+    color: orangered;
+}
+
+
+.butao1 {
+    background-color: red;
+    color: white;
+    margin-top: 130px;
+    width: 50rem;
+    height: 15rem;
+    font-size: 5rem;
+    border-radius: 10rem;
+
+}
+
+.butao2 {
+    background-color: #2196F3;
+    color: white;
+}
+
+.joao{
+    color: rgb(17, 7, 163);
+}
+
+.h01{
+    font-size: 5rem;
+}
+.voltar {
+    position: none;
+    margin-top: 3rem;
+    margin-right: 40rem;
+    height: 5rem;
+    width: 15rem;
+    background-color: red;
+    border-radius: 10rem;
+    font-size: 3.5rem;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: 1fr ; 
+    gap: 50px;
+    margin-left: 5rem;
+    
+}
+.btn{
+    background-color: orangered;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 10rem;
+    font-size: 4rem;
+}
+.h02{
+    font-size: 7rem;
+}
+.p{
+    font-size: 5rem;
+}
+.p2{
+    color: red;
+    font-size: 6rem;
+}
+.voltai{
+    background-color: orangered;
+    border-radius: 10rem;
+    border-color: aqua;
+    height: 10rem;
+    width: 50rem;
+    font-size: 5rem;
+}

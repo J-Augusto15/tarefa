@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- TELA 1 -->
+    <div id="tela1">
+        <h1 class="titulo1">
+            Bem-Vindo <br> ao site de <br>SUAS TAREFAS! 📋
+        </h1>
+
+        <h2 class="escolha">
+            Qual tarefa você quer visualizar?
+        </h2>
+
+        <div class="butaos">
+            <button onclick="irPagina()" class="butao1">João</button>
+            
+        </div>
+    </div>
+
+    <!-- TELA 2 -->
+    <div id="tela2" style="display: none;">
+        <button class="voltar" onclick="voltar()">Voltar</button>
+
+        <h1 class="h01">
+            Olá, <span class="joao">João Augusto</span> <br>
+            Escolha o dia da sua rotina:
+        </h1>
+
+        <div class="dias">
+            <button class="btn" onclick="irDia('paginas/segunda.html?tela=2')">Segunda</button>
+            <button class="btn" onclick="irDia('paginas/terca.html?tela=2')">Terça</button>
+            <button class="btn" onclick="irDia('paginas/quarta.html?tela=2')">Quarta</button>
+            <button class="btn" onclick="irDia('paginas/quinta.html?tela=2')">Quinta</button>
+            <button class="btn" onclick="irDia('paginas/sexta.html?tela=2')">Sexta</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
